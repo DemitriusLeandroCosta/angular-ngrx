@@ -1,6 +1,7 @@
-<ul>
-  <li *ngFor="let ingredient of ingredients">
+<ul class="mt-3">
+  <li *ngFor="let ingredient of ingredients" class="mt-2">
     <span>{{ ingredient.amount  }}</span> -
     <strong>{{ ingredient.name }}</strong>
+    <button class="btn btn-sm btn-danger sm-2"> Remover</button>
   </li>
 </ul>
